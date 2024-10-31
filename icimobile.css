@@ -1,0 +1,35 @@
+.header-image{
+    height: 1100px;
+    background: url('icialt.png') no-repeat center center;
+    background-size: cover;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Haettenschweiler';
+    color: rgb(255, 255, 255);
+    background-color: #131260;
+}
+.caption {
+    position: absolute;
+    top: 600px;
+    left: 49%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.content{
+    padding: 19px;
+    background-color: #131260;
+}
+.btn button{
+    background-color: rgb(34, 34, 158);
+    border: 1px solid rgb(20, 20, 112);
+    color: white;
+    padding: 20px 34px;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
